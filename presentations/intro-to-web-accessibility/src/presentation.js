@@ -100,6 +100,17 @@ export default class Presentation extends React.Component {
           go around counter-clockwise) */}
           {/* What happens if we change the design pattern? */}
           {/* How does any of this relate to inclusive design and accessibility? */}
+          {/* Before we answer that, let's test ourselves... */}
+          {/* If we didn’t follow standards and patterns accessibility would be very difficult! */}
+          {/* So where do we start? Ask the right questions: 1. Talk through the experience 
+          2. Talk through design 3. Do we understand the implementation */}
+          {/* A bad modal pattern */}
+          {/* A good modal pattern */}
+          {/* LET’S LOOK AT SOME EXAMPLES */}
+          {/* W3C Design Patterns: TOOL TIP */}
+          {/* W3C Design Patterns: DATE PICKER */}
+          {/* I CAN’T FIND ONE THAT FOLLOWS THE SPECS! :( */}
+          {/* ARIA */}
           {/* WEB ACCESSIBILITY POLICY AND LEGISLATION */}
           {/* COMPANIES THAT HAVE BEEN SUED SINCE 2007 */}
           {/* 12 WCAG 2.0 GUIDELINES */}
@@ -129,6 +140,12 @@ export default class Presentation extends React.Component {
           bgColor="secondary"
         >
           <SomeExamplesCoverSlide />
+          {/* MarketWatch.com */}
+          {/* Southwest.com */}
+          {/* Express.com */}
+          {/* VisitMt.com */}
+          {/* Apple Account */}
+          {/* Twitter */}
         </Slide>
         {/* Resources */}
         <Slide
