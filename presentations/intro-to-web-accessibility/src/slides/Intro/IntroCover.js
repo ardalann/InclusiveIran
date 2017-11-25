@@ -2,6 +2,7 @@ import React from "react";
 import { Heading, Text } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
+import EnglishHeading from "../../components/EnglishHeading";
 
 export default class IntroCover extends React.Component {
   render() {
@@ -13,9 +14,9 @@ export default class IntroCover extends React.Component {
         <Heading size={2} lineHeight={1.7} textColor="secondary">
           دسترسی پذیری وب
         </Heading>
-        <Heading size={6} lineHeight={1.7} textColor="secondary">
+        <EnglishHeading size={6} lineHeight={1.7} textColor="secondary">
           (Web Accessibility)
-        </Heading>
+        </EnglishHeading>
         <Text margin="70px 0 0" textColor="tertiary" size={2}>
           اردلان نقشینه
         </Text>

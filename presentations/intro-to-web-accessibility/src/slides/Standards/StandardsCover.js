@@ -3,7 +3,7 @@ import { Heading } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 
-export default class StandardsAndLegislationsCover extends React.Component {
+export default class StandardsCover extends React.Component {
   render() {
     return (
       <Wrapper>
