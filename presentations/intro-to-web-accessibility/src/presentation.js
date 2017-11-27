@@ -13,6 +13,10 @@ import AccessibilityCover from "./slides/Accessibility/AccessibilityCover";
 import WebFundamentals from "./slides/Accessibility/WebFundamentals";
 import WhoDoesThisAffect from "./slides/Accessibility/WhoDoesThisAffect";
 import IranStats from "./slides/Accessibility/IranStats";
+import Visual from "./slides/Accessibility/Visual";
+import Auditory from "./slides/Accessibility/Auditory";
+import Physical from "./slides/Accessibility/Physical";
+import Mental from "./slides/Accessibility/Mental";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 
@@ -44,6 +48,7 @@ const theme = createTheme(
 
 theme.screen.global.body.direction = "rtl";
 theme.screen.global.body.lineHeight = "200%";
+theme.screen.global.ul = { textAlign: "right !important" };
 
 // console.log("theme", theme);
 
@@ -68,12 +73,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide bgColor="tertiary">
           <WebFundamentals />
-          {/* WHO DOES THIS AFFECT? 20% (NEARLY 20% OF PEOPLE LIVING IN THE US, UK AND 
-          AUSTRALIA HAVE A DISABILITY) */}
-          {/* Visual */}
-          {/* Auditory */}
-          {/* Physical */}
-          {/* Cognitive */}
           {/* HOW DO PEOPLE WITH DISABILITIES USE THE WEB? Assistive Technologies, Adaptive Strategies */}
           {/* ASSISTIVE TECHNOLOGIES: Screen Readers, Zooming, Hardware */}
           {/* COMPONENTS OF WEB ACCESSIBILITY */}
@@ -85,6 +84,18 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <IranStats />
+        </Slide>
+        <Slide>
+          <Visual />
+        </Slide>
+        <Slide>
+          <Auditory />
+        </Slide>
+        <Slide>
+          <Physical />
+        </Slide>
+        <Slide>
+          <Mental />
         </Slide>
         <Slide
           transition={["slide", "zoom"]}
