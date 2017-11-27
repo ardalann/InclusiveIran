@@ -18,7 +18,7 @@ export default class AccessibilityCover extends React.Component {
           و
         </Text>
         <Heading size={4} lineHeight={1.7} textColor="primary">
-          طراحی شامل
+          طراحی فراگیر
         </Heading>
         <EnglishText lineHeight={1.7} textColor="primary">
           (Inclusive Design)

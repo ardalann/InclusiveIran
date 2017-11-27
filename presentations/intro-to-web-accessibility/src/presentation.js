@@ -7,21 +7,24 @@ import { Deck, Slide } from "spectacle";
 // Import theme
 import createTheme from "spectacle/lib/themes/default";
 
-import IntroCoverSlide from "./slides/Intro/IntroCover";
+import IntroCover from "./slides/Intro/IntroCover";
 
-import AccessibilityCoverSlide from "./slides/Accessibility/AccessibilityCover";
+import AccessibilityCover from "./slides/Accessibility/AccessibilityCover";
+import WebFundamentals from "./slides/Accessibility/WebFundamentals";
+import WhoDoesThisAffect from "./slides/Accessibility/WhoDoesThisAffect";
+import IranStats from "./slides/Accessibility/IranStats";
 
-import StandardsCoverSlide from "./slides/Standards/StandardsCover";
+import StandardsCover from "./slides/Standards/StandardsCover";
 
-import SomeExamplesCoverSlide from "./slides/SomeExamples/SomeExamplesCover";
+import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 
-import ResourcesCoverSlide from "./slides/Resources/ResourcesCover";
+import ResourcesCover from "./slides/Resources/ResourcesCover";
 
-import QnACoverSlide from "./slides/QnA/QnACover";
-import MiscQnASlide from "./slides/QnA/MiscQnA";
+import QnACover from "./slides/QnA/QnACover";
+import MiscQnA from "./slides/QnA/MiscQnA";
 
-import ThankYouCoverSlide from "./slides/ThankYou/ThankYouCover";
-import InclusiveIranSlide from "./slides/ThankYou/InclusiveIran";
+import ThankYouCover from "./slides/ThankYou/ThankYouCover";
+import InclusiveIran from "./slides/ThankYou/InclusiveIran";
 
 // Require CSS
 require("normalize.css");
@@ -40,6 +43,7 @@ const theme = createTheme(
 );
 
 theme.screen.global.body.direction = "rtl";
+theme.screen.global.body.lineHeight = "200%";
 
 // console.log("theme", theme);
 
@@ -49,7 +53,7 @@ export default class Presentation extends React.Component {
       <Deck transition={["slide"]} transitionDuration={500} theme={theme}>
         {/* Introduction */}
         <Slide>
-          <IntroCoverSlide />
+          <IntroCover />
           {/* WhoAmI */}
           {/* MySkills */}
           {/* Brands */}
@@ -60,9 +64,10 @@ export default class Presentation extends React.Component {
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <AccessibilityCoverSlide />
-          {/* The Web is fundamentally designed to work for all people, whatever their hardware, 
-          software, language, culture, location, or physical or mental ability. */}
+          <AccessibilityCover />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <WebFundamentals />
           {/* WHO DOES THIS AFFECT? 20% (NEARLY 20% OF PEOPLE LIVING IN THE US, UK AND 
           AUSTRALIA HAVE A DISABILITY) */}
           {/* Visual */}
@@ -73,14 +78,20 @@ export default class Presentation extends React.Component {
           {/* ASSISTIVE TECHNOLOGIES: Screen Readers, Zooming, Hardware */}
           {/* COMPONENTS OF WEB ACCESSIBILITY */}
           {/* SEMANTIC MARKUP */}
+          {/* Standards */}
         </Slide>
-        {/* Standards */}
+        <Slide>
+          <WhoDoesThisAffect />
+        </Slide>
+        <Slide>
+          <IranStats />
+        </Slide>
         <Slide
           transition={["slide", "zoom"]}
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <StandardsCoverSlide />
+          <StandardsCover />
           {/* GUIDELINES AND STANDARDS */}
           {/* Standards: Something set up and established by an authority as a rule for the 
           measure of quantity, weight, extent, value, or **quality**. */}
@@ -139,7 +150,7 @@ export default class Presentation extends React.Component {
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <SomeExamplesCoverSlide />
+          <SomeExamplesCover />
           {/* MarketWatch.com */}
           {/* Southwest.com */}
           {/* Express.com */}
@@ -153,7 +164,7 @@ export default class Presentation extends React.Component {
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <ResourcesCoverSlide />
+          <ResourcesCover />
         </Slide>
         {/* QnA */}
         <Slide
@@ -161,10 +172,10 @@ export default class Presentation extends React.Component {
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <QnACoverSlide />
+          <QnACover />
         </Slide>
         <Slide bgColor="tertiary">
-          <MiscQnASlide />
+          <MiscQnA />
         </Slide>
         {/* ThankYou */}
         <Slide
@@ -172,10 +183,10 @@ export default class Presentation extends React.Component {
           transitionOut={["slide"]}
           bgColor="secondary"
         >
-          <ThankYouCoverSlide />
+          <ThankYouCover />
         </Slide>
         <Slide bgColor="tertiary">
-          <InclusiveIranSlide />
+          <InclusiveIran />
         </Slide>
       </Deck>
     );
