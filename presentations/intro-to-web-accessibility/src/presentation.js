@@ -25,6 +25,12 @@ import SemanticMarkup from "./slides/Accessibility/SemanticMarkup";
 import StandardsCover from "./slides/Standards/StandardsCover";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
+import Marketwatch from "./slides/SomeExamples/Marketwatch";
+import Southwest from "./slides/SomeExamples/Southwest";
+import Express from "./slides/SomeExamples/Express";
+import Montana from "./slides/SomeExamples/Montana";
+import Apple from "./slides/SomeExamples/Apple";
+import Twitter from "./slides/SomeExamples/Twitter";
 
 import ResourcesCover from "./slides/Resources/ResourcesCover";
 
@@ -79,8 +85,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide bgColor="tertiary">
           <WebFundamentals />
-          {/* SEMANTIC MARKUP */}
-          {/* Standards */}
         </Slide>
         <Slide>
           <WhoDoesThisAffect />
@@ -169,12 +173,24 @@ export default class Presentation extends React.Component {
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>
           <SomeExamplesCover />
-          {/* MarketWatch.com */}
-          {/* Southwest.com */}
-          {/* Express.com */}
-          {/* VisitMt.com */}
-          {/* Apple Account */}
-          {/* Twitter */}
+        </Slide>
+        <Slide>
+          <Marketwatch />
+        </Slide>
+        <Slide>
+          <Southwest />
+        </Slide>
+        <Slide>
+          <Express />
+        </Slide>
+        <Slide>
+          <Montana />
+        </Slide>
+        <Slide>
+          <Apple />
+        </Slide>
+        <Slide>
+          <Twitter />
         </Slide>
         {/* Resources */}
         <Slide {...coverSlideProps}>
