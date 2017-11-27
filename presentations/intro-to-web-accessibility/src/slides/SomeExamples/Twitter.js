@@ -9,7 +9,7 @@ export default class Twitter extends React.Component {
     return (
       <Wrapper>
         <Image
-          alt="twitter.com – Bad example"
+          alt="twitter.com – Good example"
           src={img}
           width="1223"
           height="925"

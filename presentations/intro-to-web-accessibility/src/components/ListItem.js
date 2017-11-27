@@ -1,12 +1,15 @@
 import React from "react";
-import { List } from "spectacle";
+import { ListItem as OriginalListItem, S } from "spectacle";
 
-const ListItem = ({ en, ...props }) => (
-  <List
-    {...props}
-    textSize="inherit"
-    style={{ direction: en ? "ltr" : "inherit" }}
-  />
+const ListItem = ({ en, children, ...props }) => (
+  <OriginalListItem {...props} textSize="inherit">
+    <S
+      type=""
+      style={{ direction: en ? "ltr" : "inherit", display: "inline-block" }}
+    >
+      {children}
+    </S>
+  </OriginalListItem>
 );
 
 export default ListItem;
