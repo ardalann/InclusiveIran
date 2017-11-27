@@ -5,7 +5,11 @@ const ListItem = ({ en, children, ...props }) => (
   <OriginalListItem {...props} textSize="inherit">
     <S
       type=""
-      style={{ direction: en ? "ltr" : "inherit", display: "inline-block" }}
+      style={{
+        direction: en ? "ltr" : "inherit",
+        display: "inline-block",
+        verticalAlign: "top"
+      }}
     >
       {children}
     </S>
