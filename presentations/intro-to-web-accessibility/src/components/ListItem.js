@@ -8,7 +8,8 @@ const ListItem = ({ en, children, ...props }) => (
       style={{
         direction: en ? "ltr" : "inherit",
         display: "inline-block",
-        verticalAlign: "top"
+        verticalAlign: "top",
+        maxWidth: "90%"
       }}
     >
       {children}

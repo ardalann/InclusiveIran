@@ -23,6 +23,7 @@ import ComponentsOfWebAccessibility from "./slides/Accessibility/ComponentsOfWeb
 import SemanticMarkup from "./slides/Accessibility/SemanticMarkup";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
+import CommonExamples from "./slides/Standards/CommonExamples";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
@@ -169,6 +170,9 @@ export default class Presentation extends React.Component {
           {/* Adding accessibility to our process */}
           {/* Common pitalls */}
           {/* THIS IS WELL BEYOND THE “ALT” ATTRIBUTE */}
+        </Slide>
+        <Slide>
+          <CommonExamples />
         </Slide>
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>
