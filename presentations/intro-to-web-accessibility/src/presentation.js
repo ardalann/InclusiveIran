@@ -19,6 +19,8 @@ import Physical from "./slides/Accessibility/Physical";
 import Mental from "./slides/Accessibility/Mental";
 import HowDoTheyUseWeb from "./slides/Accessibility/HowDoTheyUseWeb";
 import AssistiveTechnologies from "./slides/Accessibility/AssistiveTechnologies";
+import ComponentsOfWebAccessibility from "./slides/Accessibility/ComponentsOfWebAccessibility";
+import SemanticMarkup from "./slides/Accessibility/SemanticMarkup";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 
@@ -77,7 +79,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide bgColor="tertiary">
           <WebFundamentals />
-          {/* COMPONENTS OF WEB ACCESSIBILITY */}
           {/* SEMANTIC MARKUP */}
           {/* Standards */}
         </Slide>
@@ -104,6 +105,12 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <AssistiveTechnologies />
+        </Slide>
+        <Slide>
+          <ComponentsOfWebAccessibility />
+        </Slide>
+        <Slide>
+          <SemanticMarkup />
         </Slide>
         <Slide {...coverSlideProps}>
           <StandardsCover />

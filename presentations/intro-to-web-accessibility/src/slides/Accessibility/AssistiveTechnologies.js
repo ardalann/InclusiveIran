@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, List, Layout, Fit, Image, Text } from "spectacle";
+import { Heading, List, Layout, Fit } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 import SlideHeading from "../../components/SlideHeading";
