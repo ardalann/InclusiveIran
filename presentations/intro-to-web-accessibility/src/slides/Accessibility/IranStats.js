@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Text, S, Link } from "spectacle";
+import { Heading, Text, Link } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 

@@ -17,6 +17,8 @@ import Visual from "./slides/Accessibility/Visual";
 import Auditory from "./slides/Accessibility/Auditory";
 import Physical from "./slides/Accessibility/Physical";
 import Mental from "./slides/Accessibility/Mental";
+import HowDoTheyUseWeb from "./slides/Accessibility/HowDoTheyUseWeb";
+import AssistiveTechnologies from "./slides/Accessibility/AssistiveTechnologies";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 
@@ -52,6 +54,12 @@ theme.screen.global.ul = { textAlign: "right !important" };
 
 // console.log("theme", theme);
 
+const coverSlideProps = {
+  transition: ["slide", "zoom"],
+  transitionOut: ["slide"],
+  bgColor: "secondary"
+};
+
 export default class Presentation extends React.Component {
   render() {
     return (
@@ -64,17 +72,11 @@ export default class Presentation extends React.Component {
           {/* Brands */}
         </Slide>
         {/* Accessibility */}
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide {...coverSlideProps}>
           <AccessibilityCover />
         </Slide>
         <Slide bgColor="tertiary">
           <WebFundamentals />
-          {/* HOW DO PEOPLE WITH DISABILITIES USE THE WEB? Assistive Technologies, Adaptive Strategies */}
-          {/* ASSISTIVE TECHNOLOGIES: Screen Readers, Zooming, Hardware */}
           {/* COMPONENTS OF WEB ACCESSIBILITY */}
           {/* SEMANTIC MARKUP */}
           {/* Standards */}
@@ -97,11 +99,13 @@ export default class Presentation extends React.Component {
         <Slide>
           <Mental />
         </Slide>
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide>
+          <HowDoTheyUseWeb />
+        </Slide>
+        <Slide>
+          <AssistiveTechnologies />
+        </Slide>
+        <Slide {...coverSlideProps}>
           <StandardsCover />
           {/* GUIDELINES AND STANDARDS */}
           {/* Standards: Something set up and established by an authority as a rule for the 
@@ -156,11 +160,7 @@ export default class Presentation extends React.Component {
           {/* THIS IS WELL BEYOND THE “ALT” ATTRIBUTE */}
         </Slide>
         {/* SomeExamples */}
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide {...coverSlideProps}>
           <SomeExamplesCover />
           {/* MarketWatch.com */}
           {/* Southwest.com */}
@@ -170,30 +170,18 @@ export default class Presentation extends React.Component {
           {/* Twitter */}
         </Slide>
         {/* Resources */}
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide {...coverSlideProps}>
           <ResourcesCover />
         </Slide>
         {/* QnA */}
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide {...coverSlideProps}>
           <QnACover />
         </Slide>
         <Slide bgColor="tertiary">
           <MiscQnA />
         </Slide>
         {/* ThankYou */}
-        <Slide
-          transition={["slide", "zoom"]}
-          transitionOut={["slide"]}
-          bgColor="secondary"
-        >
+        <Slide {...coverSlideProps}>
           <ThankYouCover />
         </Slide>
         <Slide bgColor="tertiary">
