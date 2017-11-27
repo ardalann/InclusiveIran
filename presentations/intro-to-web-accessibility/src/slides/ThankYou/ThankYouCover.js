@@ -10,7 +10,7 @@ export default class ThankYouCover extends React.Component {
         <Heading size={2} margin="0 0 2em 0" textColor="primary">
           متشکرم!
         </Heading>
-        <Text textColor="primary">و حالا یک سوپرایز...</Text>
+        <Text textColor="primary">و حالا یک خبر...</Text>
       </Wrapper>
     );
   }

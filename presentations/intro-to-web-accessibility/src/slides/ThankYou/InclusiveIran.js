@@ -19,6 +19,16 @@ export default class InclusiveIran extends React.Component {
             </S>
           </Text>
         </Link>
+        <Link href="https://github.com/ardalann/InclusiveIran">
+          <Text
+            fit
+            textColor="primary"
+            textFont="'American Typewriter'"
+            style={{ opacity: 0.7 }}
+          >
+            https://github.com/ardalann/InclusiveIran
+          </Text>
+        </Link>
       </Wrapper>
     );
   }
