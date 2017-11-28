@@ -1,13 +1,13 @@
 import React from "react";
 import { Heading } from "spectacle";
 
-const SlideHeading = props => (
+const SlideHeading = ({ style, ...props }) => (
   <Heading
-    {...props}
     size={1}
     lineHeight={1.7}
     textSize="0.7em"
-    style={{ paddingBottom: "0.2em" }}
+    style={Object.assign(style || {}, { paddingBottom: "0.2em" })}
+    {...props}
   />
 );
 

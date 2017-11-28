@@ -22,6 +22,13 @@ import AssistiveTechnologies from "./slides/Accessibility/AssistiveTechnologies"
 import ComponentsOfWebAccessibility from "./slides/Accessibility/ComponentsOfWebAccessibility";
 import SemanticMarkup from "./slides/Accessibility/SemanticMarkup";
 
+import DesignPatternsCover from "./slides/DesignPatterns/DesignPatternsCover";
+import DesignPatternsCommonExamples from "./slides/DesignPatterns/CommonExamples";
+import CommonExamplesImg1 from "./slides/DesignPatterns/CommonExamplesImg1";
+import CommonExamplesImg2 from "./slides/DesignPatterns/CommonExamplesImg2";
+import ChangingDesignPattern from "./slides/DesignPatterns/ChangingDesignPattern";
+import CommonExamplesImg3 from "./slides/DesignPatterns/CommonExamplesImg3";
+
 import StandardsCover from "./slides/Standards/StandardsCover";
 import CommonExamples from "./slides/Standards/CommonExamples";
 
@@ -118,6 +125,24 @@ export default class Presentation extends React.Component {
           <SemanticMarkup />
         </Slide>
         <Slide {...coverSlideProps}>
+          <DesignPatternsCover />
+        </Slide>
+        <Slide>
+          <DesignPatternsCommonExamples />
+        </Slide>
+        <Slide>
+          <CommonExamplesImg1 />
+        </Slide>
+        <Slide>
+          <CommonExamplesImg2 />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <ChangingDesignPattern />
+        </Slide>
+        <Slide>
+          <CommonExamplesImg3 />
+        </Slide>
+        <Slide {...coverSlideProps}>
           <StandardsCover />
           {/* GUIDELINES AND STANDARDS */}
           {/* Standards: Something set up and established by an authority as a rule for the 
@@ -129,14 +154,7 @@ export default class Presentation extends React.Component {
           International, ADA, Section 508, etc. */}
           {/* So Why Standards? 1. Provides a common language 
           2. Sets expectations 3. Enables compatibility */}
-          {/* Design Patterns: Design patterns are recurring solutions that 
-          solve common design problems */}
-          {/* Design patterns in real life: Buildings (House or skyscraper they all 
-          follow same fundamental building process of foundation > frame > roof > etc), 
-          Doors (There are many ways to get into a building while using different types 
-          of doors, but they all follow similar design patterns, e.g. push/pull or 
-          go around counter-clockwise) */}
-          {/* What happens if we change the design pattern? */}
+
           {/* How does any of this relate to inclusive design and accessibility? */}
           {/* Before we answer that, let's test ourselves... */}
           {/* If we didn’t follow standards and patterns accessibility would be very difficult! */}
