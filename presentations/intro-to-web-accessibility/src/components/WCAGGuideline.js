@@ -8,13 +8,18 @@ const WCAGGuideline = ({ number, children }) => (
     <Heading
       size={2}
       lineHeight={1}
-      textSize="0.7em"
+      textSize="0.9em"
       textAlign="right"
-      margin="1em 0 0.2em"
+      margin="0.5em 0 0.3em"
     >
       دستورالعمل {number}
     </Heading>
-    <Text textSize="0.6em" textAlign="right" style={{ lineHeight: "190%" }}>
+    <Text
+      textSize="0.75em"
+      textAlign="right"
+      margin="0 0 1.2em"
+      style={{ lineHeight: "190%" }}
+    >
       {children}
     </Text>
   </Wrapper>
