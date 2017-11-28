@@ -31,6 +31,11 @@ import CommonExamplesImg3 from "./slides/DesignPatterns/CommonExamplesImg3";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 import CommonExamples from "./slides/Standards/CommonExamples";
+import WCAGPrinciples from "./slides/Standards/WCAGPrinciples";
+import WCAGPrinciple1 from "./slides/Standards/WCAGPrinciple1";
+import WCAGPrinciple2 from "./slides/Standards/WCAGPrinciple2";
+import WCAGPrinciple3 from "./slides/Standards/WCAGPrinciple3";
+import WCAGPrinciple4 from "./slides/Standards/WCAGPrinciple4";
 import WCAGGuidelines from "./slides/Standards/WCAGGuidelines";
 import WCAGGuideline11 from "./slides/Standards/WCAGGuideline11";
 import WCAGGuideline12 from "./slides/Standards/WCAGGuideline12";
@@ -194,6 +199,21 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <CommonExamples />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <WCAGPrinciples />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple1 />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple2 />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple3 />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple4 />
         </Slide>
         <Slide bgColor="tertiary">
           <WCAGGuidelines />
