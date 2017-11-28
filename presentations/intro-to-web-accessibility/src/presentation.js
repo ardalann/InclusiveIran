@@ -31,6 +31,8 @@ import CommonExamplesImg3 from "./slides/DesignPatterns/CommonExamplesImg3";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 import CommonExamples from "./slides/Standards/CommonExamples";
+import WCAGGuidelines from "./slides/Standards/WCAGGuidelines";
+import WCAGGuideline11 from "./slides/Standards/WCAGGuideline11";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
@@ -191,6 +193,12 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <CommonExamples />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <WCAGGuidelines />
+        </Slide>
+        <Slide>
+          <WCAGGuideline11 />
         </Slide>
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>
