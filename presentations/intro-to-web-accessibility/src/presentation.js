@@ -39,6 +39,16 @@ import WCAGPrinciple4 from "./slides/Standards/WCAGPrinciple4";
 import WCAGGuidelines from "./slides/Standards/WCAGGuidelines";
 import WCAGGuideline11 from "./slides/Standards/WCAGGuideline11";
 import WCAGGuideline12 from "./slides/Standards/WCAGGuideline12";
+import WCAGGuideline13 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline14 from "./slides/Standards/WCAGGuideline14";
+import WCAGGuideline21 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline22 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline23 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline24 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline31 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline32 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline33 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline41 from "./slides/Standards/WCAGGuideline13";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
@@ -223,6 +233,36 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <WCAGGuideline12 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline13 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline14 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline21 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline22 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline23 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline24 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline31 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline32 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline33 />
+        </Slide>
+        <Slide>
+          <WCAGGuideline41 />
         </Slide>
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>

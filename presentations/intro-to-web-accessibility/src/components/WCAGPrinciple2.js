@@ -1,6 +1,5 @@
 import React from "react";
 
-import EnglishS from "./EnglishS";
 import WCAGPrinciple from "./WCAGPrinciple";
 
 const WCAGPrinciple2 = props => (
