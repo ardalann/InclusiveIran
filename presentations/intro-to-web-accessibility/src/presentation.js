@@ -16,9 +16,11 @@ import AccessibleParkingExample from "./slides/Accessibility/ParkingExample";
 import WhoDoesThisAffect from "./slides/Accessibility/WhoDoesThisAffect";
 import IranStats from "./slides/Accessibility/IranStats";
 import Visual from "./slides/Accessibility/Visual";
+import ColorBlindnessExample from "./slides/Accessibility/ColorBlindnessExample";
 import Auditory from "./slides/Accessibility/Auditory";
 import Physical from "./slides/Accessibility/Physical";
 import Mental from "./slides/Accessibility/Mental";
+import DyslexiaExample from "./slides/Accessibility/DyslexiaExample";
 import HowDoTheyUseWeb from "./slides/Accessibility/HowDoTheyUseWeb";
 import AssistiveTechnologies from "./slides/Accessibility/AssistiveTechnologies";
 import ComponentsOfWebAccessibility from "./slides/Accessibility/ComponentsOfWebAccessibility";
@@ -134,7 +136,9 @@ export default class Presentation extends React.Component {
         <Slide>
           <Visual />
         </Slide>
-        {/* Colorblinded example */}
+        <Slide>
+          <ColorBlindnessExample />
+        </Slide>
         <Slide>
           <Auditory />
         </Slide>
@@ -144,7 +148,9 @@ export default class Presentation extends React.Component {
         <Slide>
           <Mental />
         </Slide>
-        {/* Dyslexia example */}
+        <Slide>
+          <DyslexiaExample />
+        </Slide>
         <Slide>
           <HowDoTheyUseWeb />
         </Slide>
@@ -278,6 +284,7 @@ export default class Presentation extends React.Component {
         <Slide {...coverSlideProps}>
           <ResourcesCover />
         </Slide>
+        {/* Some resources */}
         <Slide>
           <ChecklistP1 />
         </Slide>
@@ -290,7 +297,6 @@ export default class Presentation extends React.Component {
         <Slide>
           <ChecklistP4 />
         </Slide>
-        {/* Some resources */}
         {/* QnA */}
         <Slide {...coverSlideProps}>
           <QnACover />
