@@ -8,8 +8,10 @@
     "spectacle-scripts": "2.0.0"
   },
   "scripts": {
+    "build:move":
+      "rm -rf ../../docs/presentations/intro-to-web-accessibility && mv build ../../docs/presentations/intro-to-web-accessibility",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && yarn build:move",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
