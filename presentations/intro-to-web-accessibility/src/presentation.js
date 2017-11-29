@@ -63,6 +63,10 @@ import Apple from "./slides/SomeExamples/Apple";
 import Twitter from "./slides/SomeExamples/Twitter";
 
 import ResourcesCover from "./slides/Resources/ResourcesCover";
+import ChecklistP1 from "./slides/Resources/ChecklistP1";
+import ChecklistP2 from "./slides/Resources/ChecklistP2";
+import ChecklistP3 from "./slides/Resources/ChecklistP3";
+import ChecklistP4 from "./slides/Resources/ChecklistP4";
 
 import QnACover from "./slides/QnA/QnACover";
 import MiscQnA from "./slides/QnA/MiscQnA";
@@ -270,6 +274,18 @@ export default class Presentation extends React.Component {
         {/* Resources */}
         <Slide {...coverSlideProps}>
           <ResourcesCover />
+        </Slide>
+        <Slide>
+          <ChecklistP1 />
+        </Slide>
+        <Slide>
+          <ChecklistP2 />
+        </Slide>
+        <Slide>
+          <ChecklistP3 />
+        </Slide>
+        <Slide>
+          <ChecklistP4 />
         </Slide>
         {/* Some resources */}
         {/* QnA */}
