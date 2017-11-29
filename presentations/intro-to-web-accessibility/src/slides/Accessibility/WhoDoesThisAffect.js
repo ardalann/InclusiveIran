@@ -8,7 +8,7 @@ export default class WhoDoesThisAffect extends React.Component {
     return (
       <Wrapper>
         <Heading size={6} lineHeight={1.7}>
-          چه کسانی تحت تاثیر این موضوع قرار می گیرن؟
+          چه کسانی تحت تاثیر این موضوع قرار می گیرند؟
         </Heading>
         <Heading size={1} lineHeight={1.7} color="secondary" margin="0.2em 0">
           ٪۲۰

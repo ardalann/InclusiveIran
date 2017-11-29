@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Text, Link } from "spectacle";
+import { Heading, Text, Link, S } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 
@@ -7,8 +7,12 @@ export default class IranStats extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Heading size={6} lineHeight={1.7}>
-          چه کسانی تحت تاثیر این موضوع قرار می گیرن؟
+        <Heading size={5} lineHeight={1.7}>
+          چه کسانی{" "}
+          <S type="bold" textColor="tertiary">
+            در ایران
+          </S>{" "}
+          تحت تاثیر این موضوع قرار می گیرند؟
         </Heading>
         <br />
         <Text

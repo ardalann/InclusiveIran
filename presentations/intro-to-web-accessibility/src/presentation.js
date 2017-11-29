@@ -108,11 +108,11 @@ export default class Presentation extends React.Component {
           {/* Brands */}
         </Slide>
         {/* Accessibility */}
-        <Slide {...coverSlideProps}>
-          <AccessibilityCover />
-        </Slide>
         <Slide bgColor="tertiary">
           <WebFundamentals />
+        </Slide>
+        <Slide {...coverSlideProps}>
+          <AccessibilityCover />
         </Slide>
         <Slide>
           <WhoDoesThisAffect />
@@ -164,29 +164,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide {...coverSlideProps}>
           <StandardsCover />
-          {/* GUIDELINES AND STANDARDS */}
-          {/* Standards: Something set up and established by an authority as a rule for the 
-          measure of quantity, weight, extent, value, or **quality**. */}
-          {/* Standards: Some common examples */}
-          {/* Are there web standards? */}
-          {/* Web & Digital Standards: W3C, WHATWG (Web Hypertext Application Technology 
-          Working Group), ISO (International Organization for Standardization), Ecma 
-          International, ADA, Section 508, etc. */}
-          {/* So Why Standards? 1. Provides a common language 
-          2. Sets expectations 3. Enables compatibility */}
-
-          {/* How does any of this relate to inclusive design and accessibility? */}
-          {/* Before we answer that, let's test ourselves... */}
-          {/* If we didn’t follow standards and patterns accessibility would be very difficult! */}
-          {/* So where do we start? Ask the right questions: 1. Talk through the experience 
-          2. Talk through design 3. Do we understand the implementation */}
-          {/* A bad modal pattern */}
-          {/* A good modal pattern */}
-          {/* LET’S LOOK AT SOME EXAMPLES */}
-          {/* W3C Design Patterns: TOOL TIP */}
-          {/* W3C Design Patterns: DATE PICKER */}
-          {/* I CAN’T FIND ONE THAT FOLLOWS THE SPECS! :( */}
-          {/* ARIA */}
           {/* WEB ACCESSIBILITY POLICY AND LEGISLATION */}
           {/* COMPANIES THAT HAVE BEEN SUED SINCE 2007 */}
           {/* WCAG 2.0 CONFORMANCE LEVELS (Layman's Version) */}
@@ -195,6 +172,7 @@ export default class Presentation extends React.Component {
           {/* Adding accessibility to our process */}
           {/* Common pitalls */}
           {/* THIS IS WELL BEYOND THE “ALT” ATTRIBUTE */}
+          {/* Checklist */}
         </Slide>
         <Slide>
           <CommonExamples />
