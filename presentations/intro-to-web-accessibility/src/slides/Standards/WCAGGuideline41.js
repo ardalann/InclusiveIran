@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, CodePane, Image, Link, S } from "spectacle";
+import { Layout, CodePane, Link, S } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 import SlideHeading from "../../components/SlideHeading";
@@ -8,8 +8,6 @@ import Column from "../../components/Column";
 import WCAGPrinciple4 from "../../components/WCAGPrinciple4";
 import WCAGGuideline from "../../components/WCAGGuideline";
 import WCAGGuidelineExample from "../../components/WCAGGuidelineExample";
-
-import example1Img from "../../assets/guideline21-example1.gif";
 
 export default class WCAGGuideline21 extends React.Component {
   render() {
