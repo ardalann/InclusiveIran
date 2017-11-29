@@ -60,6 +60,9 @@ import WCAGGuideline33 from "./slides/Standards/WCAGGuideline33";
 import WCAGGuideline41 from "./slides/Standards/WCAGGuideline41";
 import WCAGConformanceLevels from "./slides/Standards/WCAGConformanceLevels";
 
+import EvaluatingCover from "./slides/Evaluating/EvaluatingCover";
+import EvaluationTools from "./slides/Evaluating/EvaluationTools";
+
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
 import Southwest from "./slides/SomeExamples/Southwest";
@@ -263,6 +266,13 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <WCAGConformanceLevels />
+        </Slide>
+        {/* Evaluating */}
+        <Slide {...coverSlideProps}>
+          <EvaluatingCover />
+        </Slide>
+        <Slide>
+          <EvaluationTools />
         </Slide>
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>
