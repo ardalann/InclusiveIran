@@ -11,8 +11,8 @@ export default class CommonExamplesImg2 extends React.Component {
         <Image
           alt="A revolving door"
           src={ExampleDoor2Img}
-          width="640"
-          height="427"
+          width="800"
+          height="auto"
         />
       </Wrapper>
     );

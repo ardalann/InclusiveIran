@@ -11,6 +11,8 @@ import IntroCover from "./slides/Intro/IntroCover";
 
 import AccessibilityCover from "./slides/Accessibility/AccessibilityCover";
 import WebFundamentals from "./slides/Accessibility/WebFundamentals";
+import SidewalkExample from "./slides/Accessibility/SidewalkExample";
+import AccessibleParkingExample from "./slides/Accessibility/ParkingExample";
 import WhoDoesThisAffect from "./slides/Accessibility/WhoDoesThisAffect";
 import IranStats from "./slides/Accessibility/IranStats";
 import Visual from "./slides/Accessibility/Visual";
@@ -103,13 +105,16 @@ export default class Presentation extends React.Component {
         {/* Introduction */}
         <Slide>
           <IntroCover />
-          {/* WhoAmI */}
-          {/* MySkills */}
-          {/* Brands */}
         </Slide>
         {/* Accessibility */}
         <Slide bgColor="tertiary">
           <WebFundamentals />
+        </Slide>
+        <Slide>
+          <SidewalkExample />
+        </Slide>
+        <Slide>
+          <AccessibleParkingExample />
         </Slide>
         <Slide {...coverSlideProps}>
           <AccessibilityCover />
@@ -123,6 +128,7 @@ export default class Presentation extends React.Component {
         <Slide>
           <Visual />
         </Slide>
+        {/* Colorblinded example */}
         <Slide>
           <Auditory />
         </Slide>
@@ -132,6 +138,7 @@ export default class Presentation extends React.Component {
         <Slide>
           <Mental />
         </Slide>
+        {/* Dyslexia example */}
         <Slide>
           <HowDoTheyUseWeb />
         </Slide>
@@ -241,6 +248,7 @@ export default class Presentation extends React.Component {
         <Slide {...coverSlideProps}>
           <SomeExamplesCover />
         </Slide>
+        {/* Persian examples */}
         <Slide>
           <Marketwatch />
         </Slide>
@@ -263,6 +271,7 @@ export default class Presentation extends React.Component {
         <Slide {...coverSlideProps}>
           <ResourcesCover />
         </Slide>
+        {/* Some resources */}
         {/* QnA */}
         <Slide {...coverSlideProps}>
           <QnACover />

@@ -17,8 +17,8 @@ export default class SemanticMarkup extends React.Component {
         <Image
           alt="Example semantic markup"
           src={SemanticMarkupImg}
-          width="640"
-          height="334"
+          width="800"
+          height="auto"
           margin="2em auto 0"
         />
       </Wrapper>

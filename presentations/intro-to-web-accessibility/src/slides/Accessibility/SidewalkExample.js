@@ -2,16 +2,16 @@ import React from "react";
 import { Image } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
-import ExampleDoor3Img from "../../assets/example-door3.png";
+import img from "../../assets/accessible-sidewalk.jpg";
 
-export default class CommonExamplesImg3 extends React.Component {
+export default class SidewalkExample extends React.Component {
   render() {
     return (
       <Wrapper>
         <Image
-          alt="An automatic revolving door"
-          src={ExampleDoor3Img}
-          width="800"
+          alt="An accessible sidewalk"
+          src={img}
+          width="1024"
           height="auto"
         />
       </Wrapper>
