@@ -36,6 +36,7 @@ import CommonExamples from "./slides/Standards/CommonExamples";
 import W3CStandards from "./slides/Standards/W3CStandards";
 import W3CDesignStandards from "./slides/Standards/W3CDesignStandards";
 import W3CAccessibilityStandards from "./slides/Standards/W3CAccessibilityStandards";
+import CompaniesSued from "./slides/Standards/CompaniesSued";
 import WCAGPrinciples from "./slides/Standards/WCAGPrinciples";
 import WCAGPrinciple1 from "./slides/Standards/WCAGPrinciple1";
 import WCAGPrinciple2 from "./slides/Standards/WCAGPrinciple2";
@@ -177,8 +178,6 @@ export default class Presentation extends React.Component {
         <Slide {...coverSlideProps}>
           <StandardsCover />
           {/* WEB ACCESSIBILITY POLICY AND LEGISLATION */}
-          {/* COMPANIES THAT HAVE BEEN SUED SINCE 2007 */}
-          {/* WCAG 2.0 CONFORMANCE LEVELS (Layman's Version) */}
           {/* EVALUATING WEB ACCESSIBILITY */}
           {/* AUDITING TOOLS */}
           {/* Adding accessibility to our process */}
@@ -194,6 +193,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <W3CAccessibilityStandards />
+        </Slide>
+        <Slide>
+          <CompaniesSued />
         </Slide>
         <Slide bgColor="tertiary">
           <WCAGPrinciples />
