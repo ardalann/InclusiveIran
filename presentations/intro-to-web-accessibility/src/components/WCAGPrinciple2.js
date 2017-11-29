@@ -5,8 +5,8 @@ import WCAGPrinciple from "./WCAGPrinciple";
 const WCAGPrinciple2 = props => (
   <WCAGPrinciple
     en="Operable"
-    fa="۲. کنش پذیر/قابل تعامل"
-    description={`اجزای رابط کاربری و ناوبری باید کنش پذیر/قابل استفاده باشند.`}
+    fa="۲. قابل استفاده"
+    description={`اجزای رابط کاربری و ناوبری (دکمه ها و لینک ها) باید قابل استفاده باشند.`}
     {...props}
   />
 );
