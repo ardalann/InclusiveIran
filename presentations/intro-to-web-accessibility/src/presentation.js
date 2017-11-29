@@ -31,6 +31,9 @@ import CommonExamplesImg3 from "./slides/DesignPatterns/CommonExamplesImg3";
 
 import StandardsCover from "./slides/Standards/StandardsCover";
 import CommonExamples from "./slides/Standards/CommonExamples";
+import W3CStandards from "./slides/Standards/W3CStandards";
+import W3CDesignStandards from "./slides/Standards/W3CDesignStandards";
+import W3CAccessibilityStandards from "./slides/Standards/W3CAccessibilityStandards";
 import WCAGPrinciples from "./slides/Standards/WCAGPrinciples";
 import WCAGPrinciple1 from "./slides/Standards/WCAGPrinciple1";
 import WCAGPrinciple2 from "./slides/Standards/WCAGPrinciple2";
@@ -195,6 +198,15 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <CommonExamples />
+        </Slide>
+        <Slide>
+          <W3CStandards />
+        </Slide>
+        <Slide>
+          <W3CDesignStandards />
+        </Slide>
+        <Slide>
+          <W3CAccessibilityStandards />
         </Slide>
         <Slide bgColor="tertiary">
           <WCAGPrinciples />
