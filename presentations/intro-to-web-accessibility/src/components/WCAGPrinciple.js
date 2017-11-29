@@ -16,10 +16,10 @@ const WCAGPrinciple = ({ fa, en, description, large }) => (
       {fa} <EnglishS>({en})</EnglishS>
     </Heading>
     <Text
-      lineHeight={1}
       textSize={large ? "1.0em" : "0.6em"}
       textAlign="right"
       margin={large ? "0 0 4em" : undefined}
+      style={{ lineHeight: "200%" }}
     >
       {description}
     </Text>

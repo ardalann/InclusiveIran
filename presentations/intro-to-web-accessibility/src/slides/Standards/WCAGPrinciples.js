@@ -9,7 +9,7 @@ export default class WCAGPrinciples extends React.Component {
     return (
       <Wrapper>
         <Heading size={1} textSize="1.5em" textColor="primary">
-          ۴ اصل <EnglishS type="bold">WCAG 2.0</EnglishS>
+          ۴ اصل و ۱۲ دستورالعمل <EnglishS type="bold">WCAG 2.0</EnglishS>
         </Heading>
       </Wrapper>
     );

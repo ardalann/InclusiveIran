@@ -6,7 +6,7 @@ const WCAGPrinciple3 = props => (
   <WCAGPrinciple
     en="Understandable"
     fa="۳. قابل فهم"
-    description={`امکانات و عملیات رابط کاربری باید قابل فهم باشند.`}
+    description={`اطلاعات و عملکرد رابط کاربری باید قابل فهم باشند.`}
     {...props}
   />
 );

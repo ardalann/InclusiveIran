@@ -36,7 +36,6 @@ import WCAGPrinciple1 from "./slides/Standards/WCAGPrinciple1";
 import WCAGPrinciple2 from "./slides/Standards/WCAGPrinciple2";
 import WCAGPrinciple3 from "./slides/Standards/WCAGPrinciple3";
 import WCAGPrinciple4 from "./slides/Standards/WCAGPrinciple4";
-import WCAGGuidelines from "./slides/Standards/WCAGGuidelines";
 import WCAGGuideline11 from "./slides/Standards/WCAGGuideline11";
 import WCAGGuideline12 from "./slides/Standards/WCAGGuideline12";
 import WCAGGuideline13 from "./slides/Standards/WCAGGuideline13";
@@ -45,10 +44,10 @@ import WCAGGuideline21 from "./slides/Standards/WCAGGuideline21";
 import WCAGGuideline22 from "./slides/Standards/WCAGGuideline22";
 import WCAGGuideline23 from "./slides/Standards/WCAGGuideline23";
 import WCAGGuideline24 from "./slides/Standards/WCAGGuideline24";
-import WCAGGuideline31 from "./slides/Standards/WCAGGuideline13";
-import WCAGGuideline32 from "./slides/Standards/WCAGGuideline13";
-import WCAGGuideline33 from "./slides/Standards/WCAGGuideline13";
-import WCAGGuideline41 from "./slides/Standards/WCAGGuideline13";
+import WCAGGuideline31 from "./slides/Standards/WCAGGuideline31";
+import WCAGGuideline32 from "./slides/Standards/WCAGGuideline32";
+import WCAGGuideline33 from "./slides/Standards/WCAGGuideline33";
+import WCAGGuideline41 from "./slides/Standards/WCAGGuideline41";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
@@ -187,19 +186,6 @@ export default class Presentation extends React.Component {
           {/* ARIA */}
           {/* WEB ACCESSIBILITY POLICY AND LEGISLATION */}
           {/* COMPANIES THAT HAVE BEEN SUED SINCE 2007 */}
-          {/* 12 WCAG 2.0 GUIDELINES */}
-          {/* Perceivable1 */}
-          {/* Perceivable2 */}
-          {/* Perceivable3 */}
-          {/* Perceivable4 */}
-          {/* Operable1 */}
-          {/* Operable2 */}
-          {/* Operable3 */}
-          {/* Operable4 */}
-          {/* Understandable1 */}
-          {/* Understandable2 */}
-          {/* Understandable3 */}
-          {/* Robust */}
           {/* WCAG 2.0 CONFORMANCE LEVELS (Layman's Version) */}
           {/* EVALUATING WEB ACCESSIBILITY */}
           {/* AUDITING TOOLS */}
@@ -216,18 +202,6 @@ export default class Presentation extends React.Component {
         <Slide bgColor="quartenary">
           <WCAGPrinciple1 />
         </Slide>
-        <Slide bgColor="quartenary">
-          <WCAGPrinciple2 />
-        </Slide>
-        <Slide bgColor="quartenary">
-          <WCAGPrinciple3 />
-        </Slide>
-        <Slide bgColor="quartenary">
-          <WCAGPrinciple4 />
-        </Slide>
-        <Slide bgColor="tertiary">
-          <WCAGGuidelines />
-        </Slide>
         <Slide>
           <WCAGGuideline11 />
         </Slide>
@@ -239,6 +213,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <WCAGGuideline14 />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple2 />
         </Slide>
         <Slide>
           <WCAGGuideline21 />
@@ -252,6 +229,9 @@ export default class Presentation extends React.Component {
         <Slide>
           <WCAGGuideline24 />
         </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple3 />
+        </Slide>
         <Slide>
           <WCAGGuideline31 />
         </Slide>
@@ -260,6 +240,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <WCAGGuideline33 />
+        </Slide>
+        <Slide bgColor="quartenary">
+          <WCAGPrinciple4 />
         </Slide>
         <Slide>
           <WCAGGuideline41 />
