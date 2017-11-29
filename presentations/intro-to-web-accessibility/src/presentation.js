@@ -53,6 +53,7 @@ import WCAGGuideline31 from "./slides/Standards/WCAGGuideline31";
 import WCAGGuideline32 from "./slides/Standards/WCAGGuideline32";
 import WCAGGuideline33 from "./slides/Standards/WCAGGuideline33";
 import WCAGGuideline41 from "./slides/Standards/WCAGGuideline41";
+import WCAGConformanceLevels from "./slides/Standards/WCAGConformanceLevels";
 
 import SomeExamplesCover from "./slides/SomeExamples/SomeExamplesCover";
 import Marketwatch from "./slides/SomeExamples/Marketwatch";
@@ -181,9 +182,6 @@ export default class Presentation extends React.Component {
           {/* EVALUATING WEB ACCESSIBILITY */}
           {/* AUDITING TOOLS */}
           {/* Adding accessibility to our process */}
-          {/* Common pitalls */}
-          {/* THIS IS WELL BEYOND THE “ALT” ATTRIBUTE */}
-          {/* Checklist */}
         </Slide>
         <Slide>
           <CommonExamples />
@@ -247,6 +245,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <WCAGGuideline41 />
+        </Slide>
+        <Slide>
+          <WCAGConformanceLevels />
         </Slide>
         {/* SomeExamples */}
         <Slide {...coverSlideProps}>
