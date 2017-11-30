@@ -74,6 +74,9 @@ import Twitter from "./slides/SomeExamples/Twitter";
 import HowDoesItAffectUsCover from "./slides/HowDoesItAffectUs/HowDoesItAffectUsCover";
 import FullCycle from "./slides/HowDoesItAffectUs/FullCycle";
 
+import CommonPitfallsCover from "./slides/CommonPitfalls/CommonPitfallsCover";
+import CommonPitfalls from "./slides/CommonPitfalls/CommonPitfalls";
+
 import ResourcesCover from "./slides/Resources/ResourcesCover";
 import ChecklistP1 from "./slides/Resources/ChecklistP1";
 import ChecklistP2 from "./slides/Resources/ChecklistP2";
@@ -297,12 +300,19 @@ export default class Presentation extends React.Component {
         <Slide>
           <Twitter />
         </Slide>
-        {/* HowDoesItAffectUsCover */}
+        {/* HowDoesItAffectUs */}
         <Slide {...coverSlideProps}>
           <HowDoesItAffectUsCover />
         </Slide>
         <Slide>
           <FullCycle />
+        </Slide>
+        {/* CommonPitfalls */}
+        <Slide {...coverSlideProps}>
+          <CommonPitfallsCover />
+        </Slide>
+        <Slide>
+          <CommonPitfalls />
         </Slide>
         {/* Resources */}
         <Slide {...coverSlideProps}>
