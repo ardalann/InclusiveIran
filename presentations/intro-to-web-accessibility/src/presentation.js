@@ -71,6 +71,9 @@ import Montana from "./slides/SomeExamples/Montana";
 import Apple from "./slides/SomeExamples/Apple";
 import Twitter from "./slides/SomeExamples/Twitter";
 
+import HowDoesItAffectUsCover from "./slides/HowDoesItAffectUs/HowDoesItAffectUsCover";
+import FullCycle from "./slides/HowDoesItAffectUs/FullCycle";
+
 import ResourcesCover from "./slides/Resources/ResourcesCover";
 import ChecklistP1 from "./slides/Resources/ChecklistP1";
 import ChecklistP2 from "./slides/Resources/ChecklistP2";
@@ -188,9 +191,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide {...coverSlideProps}>
           <StandardsCover />
-          {/* EVALUATING WEB ACCESSIBILITY */}
-          {/* AUDITING TOOLS */}
-          {/* Adding accessibility to our process */}
         </Slide>
         <Slide>
           <CommonExamples />
@@ -296,6 +296,13 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <Twitter />
+        </Slide>
+        {/* HowDoesItAffectUsCover */}
+        <Slide {...coverSlideProps}>
+          <HowDoesItAffectUsCover />
+        </Slide>
+        <Slide>
+          <FullCycle />
         </Slide>
         {/* Resources */}
         <Slide {...coverSlideProps}>
