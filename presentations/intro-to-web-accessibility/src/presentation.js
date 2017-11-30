@@ -76,6 +76,8 @@ import FullCycle from "./slides/HowDoesItAffectUs/FullCycle";
 
 import CommonPitfallsCover from "./slides/CommonPitfalls/CommonPitfallsCover";
 import CommonPitfalls from "./slides/CommonPitfalls/CommonPitfalls";
+import WhereDoWeGoFromHere from "./slides/CommonPitfalls/WhereDoWeGoFromHere";
+import BeyondAlt from "./slides/CommonPitfalls/BeyondAlt";
 
 import ResourcesCover from "./slides/Resources/ResourcesCover";
 import ChecklistP1 from "./slides/Resources/ChecklistP1";
@@ -313,6 +315,12 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <CommonPitfalls />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <WhereDoWeGoFromHere />
+        </Slide>
+        <Slide>
+          <BeyondAlt />
         </Slide>
         {/* Resources */}
         <Slide {...coverSlideProps}>
