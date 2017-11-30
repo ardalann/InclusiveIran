@@ -10,9 +10,9 @@ import createTheme from "spectacle/lib/themes/default";
 import IntroCover from "./slides/Intro/IntroCover";
 
 import AccessibilityCover from "./slides/Accessibility/AccessibilityCover";
-import WebFundamentals from "./slides/Accessibility/WebFundamentals";
 import SidewalkExample from "./slides/Accessibility/SidewalkExample";
 import AccessibleParkingExample from "./slides/Accessibility/ParkingExample";
+import WebFundamentals from "./slides/Accessibility/WebFundamentals";
 import WhoDoesThisAffect from "./slides/Accessibility/WhoDoesThisAffect";
 import IranStats from "./slides/Accessibility/IranStats";
 import Visual from "./slides/Accessibility/Visual";
@@ -120,14 +120,14 @@ export default class Presentation extends React.Component {
           <IntroCover />
         </Slide>
         {/* Accessibility */}
-        <Slide bgColor="tertiary">
-          <WebFundamentals />
-        </Slide>
         <Slide>
           <SidewalkExample />
         </Slide>
         <Slide>
           <AccessibleParkingExample />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <WebFundamentals />
         </Slide>
         <Slide {...coverSlideProps}>
           <AccessibilityCover />
