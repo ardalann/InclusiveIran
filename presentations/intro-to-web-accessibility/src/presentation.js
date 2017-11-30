@@ -80,6 +80,8 @@ import WhereDoWeGoFromHere from "./slides/CommonPitfalls/WhereDoWeGoFromHere";
 import BeyondAlt from "./slides/CommonPitfalls/BeyondAlt";
 
 import ResourcesCover from "./slides/Resources/ResourcesCover";
+import Links from "./slides/Resources/Links";
+import InclusiveIran from "./slides/Resources/InclusiveIran";
 import ChecklistP1 from "./slides/Resources/ChecklistP1";
 import ChecklistP2 from "./slides/Resources/ChecklistP2";
 import ChecklistP3 from "./slides/Resources/ChecklistP3";
@@ -89,7 +91,6 @@ import QnACover from "./slides/QnA/QnACover";
 import MiscQnA from "./slides/QnA/MiscQnA";
 
 import ThankYouCover from "./slides/ThankYou/ThankYouCover";
-import InclusiveIran from "./slides/ThankYou/InclusiveIran";
 
 // Require CSS
 require("normalize.css");
@@ -326,7 +327,12 @@ export default class Presentation extends React.Component {
         <Slide {...coverSlideProps}>
           <ResourcesCover />
         </Slide>
-        {/* Some resources */}
+        <Slide>
+          <Links />
+        </Slide>
+        <Slide bgColor="tertiary">
+          <InclusiveIran />
+        </Slide>
         <Slide>
           <ChecklistP1 />
         </Slide>
@@ -349,9 +355,6 @@ export default class Presentation extends React.Component {
         {/* ThankYou */}
         <Slide {...coverSlideProps}>
           <ThankYouCover />
-        </Slide>
-        <Slide bgColor="tertiary">
-          <InclusiveIran />
         </Slide>
       </Deck>
     );

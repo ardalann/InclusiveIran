@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Text } from "spectacle";
+import { Heading } from "spectacle";
 
 import Wrapper from "../../components/Wrapper";
 
@@ -10,7 +10,6 @@ export default class ThankYouCover extends React.Component {
         <Heading size={2} margin="0 0 2em 0" textColor="primary">
           متشکرم!
         </Heading>
-        <Text textColor="primary">و حالا یک خبر...</Text>
       </Wrapper>
     );
   }
