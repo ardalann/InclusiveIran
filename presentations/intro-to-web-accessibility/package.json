@@ -6,7 +6,7 @@
     "https://inclusiveiran.com/presentations/intro-to-web-accessibility",
   "dependencies": {
     "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.1.2",
     "spectacle-scripts": "2.0.0"
   },
   "scripts": {
